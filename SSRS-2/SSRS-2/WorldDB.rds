@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="WorldDB">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=.;Initial Catalog=World</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>5664fdf1-7fbd-4f0c-b292-7b26e0fd70ba</DataSourceID>
+</RptDataSource>

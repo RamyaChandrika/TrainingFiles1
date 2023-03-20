@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="SSISProjects">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=.;Initial Catalog=SSISProjects</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>d8db4394-e439-4c9f-9b01-a7bc2fe2c385</DataSourceID>
+</RptDataSource>

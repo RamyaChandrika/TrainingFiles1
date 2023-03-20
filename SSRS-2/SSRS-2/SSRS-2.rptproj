@@ -4,8 +4,8 @@
     <FullPath>Debug</FullPath>
     <OutputPath>bin\Debug</OutputPath>
     <ErrorLevel>2</ErrorLevel>
-    <OverwriteDatasets>False</OverwriteDatasets>
-    <OverwriteDataSources>False</OverwriteDataSources>
+    <OverwriteDatasets>True</OverwriteDatasets>
+    <OverwriteDataSources>True</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
     <TargetReportFolder>/Reports/browse/</TargetReportFolder>
@@ -22,7 +22,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>SSRS-1</TargetReportFolder>
+    <TargetReportFolder>SSRS-2</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -36,7 +36,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>SSRS-1</TargetReportFolder>
+    <TargetReportFolder>SSRS-2</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -49,34 +49,14 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
-    <DataSource Include="Actors.rds" />
-    <DataSource Include="AdventureWorks.rds" />
-    <DataSource Include="Continents.rds" />
-    <DataSource Include="WORLD.rds" />
+    <DataSet Include="Sales.rsd" />
   </ItemGroup>
   <ItemGroup>
-    <Report Include="Actors DrillDown By Year.rdl" />
-    <Report Include="Actors DrillDown Report.rdl" />
-    <Report Include="Actors Group Report.rdl" />
-    <Report Include="Bookmark.rdl" />
-    <Report Include="CascadingParameters_Products.rdl" />
-    <Report Include="Charts_Population.rdl" />
-    <Report Include="ConditionalFormatting.rdl" />
-    <Report Include="ContinentGroup.rdl" />
-    <Report Include="Filter_Countries.rdl" />
-    <Report Include="Formatting.rdl" />
-    <Report Include="HeaderAndFooter.rdl" />
-    <Report Include="ImageImports_Cars.rdl" />
-    <Report Include="Indicators_Sales - Copy.rdl" />
-    <Report Include="Indicators_Sales.rdl" />
-    <Report Include="Lists_Countries.rdl" />
-    <Report Include="Main Report.rdl" />
-    <Report Include="MatrixReport.rdl" />
-    <Report Include="Nested Drill Down Report.rdl" />
-    <Report Include="Products.rdl" />
-    <Report Include="Sub Report.rdl" />
-    <Report Include="Template.rdl" />
-    <Report Include="WorldReport.rdl" />
+    <DataSource Include="SSISProjects.rds" />
+    <DataSource Include="WorldDB.rds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Report Include="Capitals.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
