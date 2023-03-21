@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "FileTransferProject", "FileTransferProject\FileTransferProject.dtproj", "{000DD0B6-E6BE-4B3A-AF18-940ADFFD24DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{000DD0B6-E6BE-4B3A-AF18-940ADFFD24DA}.Development|Default.ActiveCfg = Development
+		{000DD0B6-E6BE-4B3A-AF18-940ADFFD24DA}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5830BE6E-5341-4170-9633-611DF97ED0FE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "UniversityReport", "UniversityReport\UniversityReport.rptproj", "{488415A7-5355-446F-9DD0-C7C1060DFD5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{488415A7-5355-446F-9DD0-C7C1060DFD5E}.Debug|Default.ActiveCfg = Debug
+		{488415A7-5355-446F-9DD0-C7C1060DFD5E}.Debug|Default.Build.0 = Debug
+		{488415A7-5355-446F-9DD0-C7C1060DFD5E}.Debug|Default.Deploy.0 = Debug
+		{488415A7-5355-446F-9DD0-C7C1060DFD5E}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{488415A7-5355-446F-9DD0-C7C1060DFD5E}.DebugLocal|Default.Build.0 = DebugLocal
+		{488415A7-5355-446F-9DD0-C7C1060DFD5E}.Release|Default.ActiveCfg = Release
+		{488415A7-5355-446F-9DD0-C7C1060DFD5E}.Release|Default.Build.0 = Release
+		{488415A7-5355-446F-9DD0-C7C1060DFD5E}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94756358-59FA-44D6-9DCD-0A49B6868137}
+	EndGlobalSection
+EndGlobal
